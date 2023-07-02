@@ -1,0 +1,32 @@
+[
+  {
+    "color": "yellow",
+    "type": "rubber-duck",
+    "size": "nano",
+    "name": "Ducky Duck"
+  },
+  {
+    "color": "gray",
+    "type": "rocky",
+    "size": "nano",
+    "name": "Rockstar"
+  },
+  {
+    "color": "gray",
+    "type": "totoro",
+    "size": "nano",
+    "name": "トトロ"
+  },
+  {
+    "color": "red",
+    "type": "crab",
+    "size": "nano",
+    "name": "Leonardo DaPinchy"
+  },
+  {
+    "color": "green",
+    "type": "snake",
+    "size": "nano",
+    "name": "Eden"
+  }
+]
