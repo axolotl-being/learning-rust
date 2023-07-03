@@ -1,0 +1,42 @@
+
+/* 
+fn main() {
+    print_labeled_measurement(5, 'h');
+}
+
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {value}{unit_label}");
+}
+*/
+/*  fn five() -> i32 {
+     5
+ }
+
+ fn main() {
+     let x = five();
+
+     println!("The value of x is: {x}");
+ } */
+
+/*  fn main() {
+    let x = plus_one(5);
+
+    println!("The value of x is: {x}");
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
+} */
+fn f(x: i32) -> i32 { x + 1 }
+
+fn main() {
+
+  println!("{}", f({ //it needs to evaluate the expression within the curly brackets
+
+    let y = 1; 
+
+    y + 1 //returns a value to be used by forgoing the semicolon
+
+  }));
+
+}
