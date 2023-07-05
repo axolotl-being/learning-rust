@@ -7,7 +7,7 @@ fn main() {
     io::stdin()
          .read_line(&mut unit)
          .expect("Failed to read line");
-    //println!("{unit}");
+
     println!("What temperature are you converting?");
     let mut temp: String = String::new(); 
     io::stdin()
