@@ -16,10 +16,10 @@ fn main() {
     let temp: i32 = temp.trim().parse().expect("Please type a number!");
     
 
-    match unit.as_str() {
+    match unit.as_str().trim() { //need to trim off the white space to make it match
         "Celsius" => println!("{temp} {unit} is {} Fahrenheit", c_to_f(temp)),
         "Fahrenheit" => println!("{temp} {unit} is {} Celsius", f_to_c(temp)),
-        _ => println!("This isn't in any of the accepted units."), //why the fuck does the string not match anything else
+        _ => println!("This isn't in any of the accepted units."), 
     };
 }
 
