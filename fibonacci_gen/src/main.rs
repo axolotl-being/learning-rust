@@ -11,10 +11,10 @@ fn main() {
     let nth: usize = nth.trim().parse().expect("Please type a number!");
 
     let mut fib_seq = [0,1];
-    for number in 0..(nth-1) {
-        let next: i32 = fib_seq[0] + fib_seq[1];
+    for _number in 0..(nth-1) {
+        let next: u32 = fib_seq[0] + fib_seq[1];
         fib_seq = [fib_seq[1], next];
         //println!("{}",next) I used this for debugging
     };
-    println!("The {nth} fibonacci number is {}", fib_seq[1]);
+    println!("The {nth}th fibonacci number is {}", fib_seq[1]);
 }
